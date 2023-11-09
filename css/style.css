@@ -7,41 +7,46 @@
 }
 .header-first-div {
     position: absolute;
-    /* max-width: 1440px; */
     width: 100%;
 }
 .header-left-box {
-    max-width: 660px;
-    width: 100%;
-    height: 742px;
+    max-width: 50rem;
+    height: 940px;
     background-color: #141414;
+    position: relative;
+    top: 0;
+    left: 0;
 }
+.second-child {
+    max-width: 52rem;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+} 
 .header-nav-box {
-    max-width: 1120px;
     width: 100%;
     justify-content: space-between;
-    position: relative;
-    top: -710px;
-    margin: 0 auto;
+    position: absolute;
+    top: 32px;
     align-items: center;
 }
 .small-box-header-div {
-    max-width: 630px;
+    max-width: 45rem;
     width: 100%;
     justify-content: space-between;
     align-items: center;
 }
 .nav-box {
-    max-width: 400px;
+    max-width: 28rem;
     width: 100%;
     justify-content: space-between;
+    margin-left: 3rem;
 }
 .button {
-    max-width: 160px;
-    width: 100%;
+    max-width: 9.3rem;
     height: 40px;
     background-color: #FE8400;
-    font-size: 16px;
+    font-size: 1rem;
     text-align: center;
     margin-top: 18px;
     border-radius: 4px;
@@ -50,7 +55,8 @@
     font-family: 'Poppins', sans-serif;
     color: #141414;
     font-weight: 400;
-    line-height: 40px;
+    line-height: 2.5rem;
+    transition: 1s;
 }
 .button-line {
     width: 20px;
@@ -69,38 +75,333 @@
     color: #FE8400;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1.3rem;
     line-height: 50px;
-
+    transition: 0.7s;
 }
-.first-image {
-    max-width: 909px;
+.image {
     width: 100%;
-    height: 545px;
+    min-height: 450px;
+    object-fit: fill;
+    left: 37rem;
 }
 .first-image-div {
-    position: relative;
-    top: -700px;
-    float: inline-end;
+
+    position: absolute;
+    top: 104px;
+    left: 40%;
 }
 .header-text-div {
-    max-width: 528px;
-    height: 445px;
+    width: 35%;
+    height: 500px;
     background-color: #00000033;
-    position: relative;
-    float: right;
-    top: -650px;
+    position: absolute;
+    top: 180px;
+    left: 10rem;
     z-index: 4;
-}
-.blank-div {
-    max-width: 1100px;
-    width: 100%;
 }
 .header-title {
     color: #ffffff;
-    font-size: 48px;
+    font-size: 3rem;
+    margin-top: 32px;
+    font-family: 'Montserrat', sans-serif;
+    max-width: 31rem;
+    line-height: 60px;
 }
 .header-info-text {
     color: #ffffff;
-    font-size: 24px;
+    font-size: 1.5rem;
+    margin-top: 16px;
+    font-family: 'Poppins', sans-serif;
+   max-width: 28.31rem;
+    line-height: 40px;
 }
+.header-second-button {
+    width: 16rem;
+    height: 3.75rem;
+    background-color: #FE8400;
+    border-radius: 4px;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin-top: 48px;
+    margin-bottom: 32px;
+    font-family: 'Poppins', sans-serif;
+    transition: 1s;
+}
+.header-icons-div {
+    width: 16px;
+    height: 236px;
+    position: absolute;
+    top: 330px;
+    left: 4.5rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+ .icon-line-div {
+    top: 270px;
+    left: 3.8rem;
+    position: absolute;
+    background-color: #FE8400;
+    width: 38px;
+    height: 2px;
+    rotate: 90deg;
+
+} 
+.icon-line-div1{
+    content: '';
+    top: 520px;
+    left: 4rem;
+    position: absolute;
+    justify-content: center;  
+    background-color: #FE8400;
+    width: 38px;
+    height: 2px;
+    rotate: 90deg;
+
+}
+
+/* first section styles */
+.first-section {
+    padding-top: 1020px;
+    width: 100%;
+}
+.section-small-div {
+    justify-content: space-between;
+    width: 100%;
+}
+.first-section-image {
+    max-width: 35rem;
+    transform: scale(1.1);
+    /* width: 100%; */
+    padding-right: 10px;
+    transition: 1s;
+}
+.up-text {
+    width: 43%;
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    line-height: 30px;
+    min-height: 330px;
+}
+
+.first-section-main-div {
+    max-width: 70rem;
+    height: 27.56rem;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.first-section-title {
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.hr-size {
+    height: 5px;
+    width: 171px;
+    background-color: #FE8400;
+    border-radius: 6px;
+    border: none;
+    margin-bottom: 60px;
+}
+#ch {
+    display: none;
+}
+label {
+    display: inline-block;
+    color: #FE8400;
+    cursor: pointer;
+    margin-top: 24px;
+    transition: 0.5s;
+}
+.down-text {
+    font-size: 1.5rem;
+    display: none;
+}
+#ch:checked ~ .down-text {
+    display: block;
+}
+#ch:checked ~ label {
+    display: none;
+}
+/* second section style  */
+.second-section {
+    margin-top: 60px;
+}
+.second-section-title {
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.second-section-main-div {
+    width: 100%;
+    height: 300px;
+    background-color: #FFE4C6;
+    padding-top: 73px;
+}
+.select-boxes {
+    max-width: 20rem;
+    width: 100%;
+    height: 60px;
+    border: none;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 2.75rem;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: 1s;
+    position: relative;
+}
+.first-child {
+    max-width: 70rem;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-between;margin-bottom: 32px;
+}
+.second-child {
+    max-width: 67rem;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.second-line-select-boxes {
+    max-width: 13.75rem;
+    width: 100%;
+    height: 60px;
+    border: none;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 2.75rem;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: 1s;
+}
+.button-second-section {
+    background-color: #FE8400;
+    max-width: 16rem;
+    width: 100%;
+    font-size: 1.5rem;
+    border: none;
+    height: 60px;
+    border-radius: 6px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    transition: 1s;
+}
+.icon-div-in-select {
+    position: absolute;
+    top: 23px;
+    left: 16px;
+}
+.select-div {
+    position: relative;
+    max-width: 20rem;
+    width: 100%;
+    height: 60px;
+}
+/* third section style  */
+.third-section {
+    width: 100%;
+    padding-top: 80px;
+}
+.third-section-title {
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.third-section-line {
+    height: 5px;
+    width: 300px;
+    background-color: #FE8400;
+    border-radius: 6px;
+    border: none;
+    margin-bottom: 40px;
+}
+ .third-section-main-div {
+    max-width: 70rem;
+    width: 95%;
+    height: 480px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.third-child-div {
+    max-width: 22.5rem;
+    height: 430px;
+    border-style: solid;
+    border-color: #575757;
+    border-width: 1px;
+    border-radius: 8px;
+    padding: 2.5rem 1.17rem 0 1.17rem;
+} 
+.car-image {
+    max-width: 19rem;
+    width: 100%;
+    height: 183px;
+    transition: 1s;
+    cursor: pointer;
+    object-fit: cover;
+}
+.middle-img {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.image-zoom-wraper {
+    overflow: hidden;
+}
+.car-name {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    height: 27px;
+}
+.car-info-small-box {
+    max-width: 19.68rem;
+    height: 155px;
+}
+.car-info {
+    margin-top: 40px;
+}
+.car-exponents {
+    gap: 1rem;
+    margin-top: 16px;
+    height: 23px;
+}
+.car-exponents-small-box {
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+.car-rent {
+    max-width: 19.98rem;
+    justify-content: space-between;
+    margin-top: 40px;
+    align-items: center;
+}
+.book-button {
+    max-width: 7rem;
+    width: 100%;
+    height: 36px;
+    border: none;
+    background-color: #FE8400;
+    font-size: 0.87rem;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.car-rent-info {
+    max-width: 7.5rem;
+    font-size: 1rem;
+    color: #575757;
+    font-family: 'Poppins', sans-serif;
+    line-break: auto;
+}
+.price {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: #141414;
+    margin-top: 0.5rem;
+}
+
