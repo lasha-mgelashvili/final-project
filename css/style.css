@@ -169,6 +169,7 @@
     width: 100%;
 }
 .first-section-image {
+    width: 100%;
     max-width: 35rem;
     padding-right: 10px;
     transition: 1s;
@@ -223,6 +224,7 @@ label {
 }
 /* second section style  */
 .second-section {
+    width: 100%;
     margin-top: 80px;
 }
 .second-section-title {
@@ -300,6 +302,7 @@ label {
 .third-section {
     width: 100%;
     padding-top: 80px;
+    flex-wrap: wrap;
 }
 .third-section-title {
     font-size: 2rem;
@@ -330,6 +333,7 @@ label {
     border-width: 1px;
     border-radius: 8px;
     padding: 2.5rem 1.17rem 0 1.17rem;
+    margin-left: 1rem;
 } 
 .car-image {
     max-width: 19rem;
@@ -338,10 +342,6 @@ label {
     transition: 1s;
     cursor: pointer;
     object-fit: cover;
-}
-.middle-img {
-    margin-left: 1rem;
-    margin-right: 1rem;
 }
 .image-zoom-wraper {
     overflow: hidden;
@@ -400,4 +400,208 @@ label {
     color: #141414;
     margin-top: 0.5rem;
 }
+/* silk slider test version */
+/* საბოლოოდ გამოვიდა */
+.slider {
+    width: 80%; /* Adjust the width as per your design */
+    margin: 0 auto; /* Center the slider */
+}
 
+.slider img {
+    max-width: 100%;
+    height: auto;
+}
+/* Change the color of the active dot (border color) to orange */
+.slick-dots li.slick-active button {
+    border: 5px solid orange; /* Set the desired color for the active dot's border */
+    border-radius: 100px;
+}
+
+/* Change the color of the inactive dots (border color) to a different color (e.g., gray) */
+.slick-dots li button {
+    border: 2px solid gray; /* Set the desired color for the inactive dots' border */
+}
+
+/* fourth section styles  */
+.fourth-section {
+    margin-top: 80px;
+}
+.fourth-section-main-div {
+    width: 100%;
+    background-color: #141414;
+    height: 395px;
+    padding-top: 46px;
+    position: relative;
+}
+.section-title {
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+}
+.fourth-line {
+    height: 5px;
+    width: 300px;
+    background-color: #FE8400;
+    border-radius: 6px;
+    border: none;
+    margin-bottom: 40px;
+}
+.info-div {
+    max-width: 30.18rem;
+    font-size: 1.12rem;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+    line-height: 32px;
+}
+.fourth-child-div {
+    max-width: 60rem;
+    height: 497px;
+    margin: 0 auto;
+}
+.premium-services {
+    width: 277px;
+    background-color:  #FFFFFF;
+    height: 322px;
+    text-align: center;
+    padding-top: 78.5px;border-radius: 4px;
+    box-shadow: 5px 5px 10px #888888;
+    transition: 0.4s;
+}
+.premium-middle-box {
+    margin-left: 0.8rem;
+    margin-right: 0.8rem;
+}
+.premium-services-main-div {
+    width: 100%;
+    position: absolute;
+    top: 2880px;
+}
+.fit-box {
+    max-width: 60rem;
+    width: 95%;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.services-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.37rem;
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+}
+.services-info {
+    font-size: 0.98rem;
+    font-family: 'Poppins', sans-serif;
+    color: #575757;
+    line-height: 23px;
+
+}
+/* fifth section style  */
+.fifth-section {
+    width: 100%;
+    margin-top: 260px;
+}
+.fifth-section-title {
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #141414;    
+}
+.fifth-title-line {
+    height: 5px;
+    width: 366px;
+    background-color: #FE8400;
+    border-radius: 6px;
+    border: none;
+    margin-bottom: 40px;
+}
+.fifth-section-main-div {
+    max-width: 65rem;
+    height: 417px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.costomer-div {
+    width: 453px;
+    height: 417px;
+    border: 1px solid #141414;
+    text-align: center;
+}
+.costomer-name {
+    
+} 
+/* welcome animation  */
+/* styles.css */
+.welcome-animation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4d8cd;
+    animation: changeColors 5s, bounce 2s;
+  }
+  
+  @keyframes changeColors {
+    0% {
+      background-color: aqua;
+      color: #316514;
+    }
+    25% {
+      background-color: lightskyblue;
+      color: #8b9f30;
+    }
+    50% {
+      background-color: lightblue;
+      color: #ffb820;
+    }
+    75% {
+      background-color: lightsteelblue;
+      color: #a96813;
+    }
+    100% {
+      background-color: antiquewhite;
+      color: #f86d65;
+      opacity: 0; /* Add opacity to fade out */
+    }
+  }
+  
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+  }
+  
+  .welcome-h1 {
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Comic Sans MS', cursive;
+    padding: 20px;
+    animation: textColors 5s;
+  }
+  
+  @keyframes textColors {
+    0% {
+      color: #bca62a;
+    }
+    25% {
+      color: #6f5513;
+    }
+    50% {
+      color: #ffcf67;
+    }
+    75% {
+      color: #9a5d02;
+    }
+    100% {
+      color: brown;
+    }
+  }
+canvas {
+    display: block;
+  }
+  
