@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/hover.css" />
@@ -33,6 +34,10 @@
       rel="stylesheet"
     />
     <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link
       rel="stylesheet"
       type="text/css"
       href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
@@ -42,6 +47,8 @@
       type="text/css"
       href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
     />
+    <script src="path-to-jquery/jquery.min.js"></script>
+    <script src="path-to-slick/slick.min.js"></script>
   </head>
   <body>
     <div class="welcome-animation">
@@ -318,7 +325,7 @@
                 <div class="car-exponents flex-for">
                   <div class="flex-for car-exponents-small-box">
                     <i
-                      class="fa-solid fa-user fa-lg"
+                      class="scroll fa-solid fa-user fa-lg"
                       style="color: #000000"
                     ></i>
                     <p>5</p>
@@ -413,7 +420,10 @@
                     <p>Gasoline</p>
                   </div>
                   <div class="flex-for car-exponents-small-box">
-                    <i class="fa-solid fa-car fa-lg" style="color: #000000"></i>
+                    <i
+                      class="scroll fa-solid fa-car fa-lg"
+                      style="color: #000000"
+                    ></i>
                     <p>Mini coupe</p>
                   </div>
                 </div>
@@ -455,7 +465,7 @@
                   </div>
                   <div class="flex-for car-exponents-small-box">
                     <i class="fa-solid fa-car fa-lg" style="color: #000000"></i>
-                    <p>Limousine</p>
+                    <p>Limo</p>
                   </div>
                 </div>
                 <div class="car-rent flex-for">
@@ -546,7 +556,9 @@
                 style="color: #fe8400"
               ></i>
               <h2 class="services-title">GPS on Cars</h2>
-              <p class="services-info">All cars are equipped with GPS navigation system.</p>
+              <p class="services-info">
+                All cars are equipped with GPS navigation system.
+              </p>
             </div>
           </div>
         </div>
@@ -554,33 +566,182 @@
       <!-- fifth section  -->
       <section class="fifth-section">
         <h1 class="fifth-section-title">What Our Clients Say?</h1>
-        <hr class="fifth-title-line">
-        <div class="fifth-section-main-div slider2 flex-for">
+        <hr class="fifth-title-line" />
+        <div class="big-mom-div flex-for">
+          <div class="fifth-section-main-div slider flex-for">
             <div class="costomer-div">
-              <img src="images/Ellipse62.png" alt="costomer image">
+              <img
+                class="image-costomer"
+                src="images/Ellipse62.png"
+                alt="costomer image"
+              />
               <h4 class="costomer-name">Kristin Watson</h4>
-              <p>I rented a car for a one-week trip from Carnet on the recommendation of my friend. Actually, I am satisfied with them.</p>
+              <p class="coments">
+                I rented a car for a one-week trip from Carnet on the
+                recommendation of my friend. Actually, I am satisfied with them.
+              </p>
             </div>
             <div class="costomer-div">
-              <img src="images/Ellipse62(1).png" alt="costomer image">
-              <h4 class="costomer-name"></h4>
-              <p></p>
+              <img
+                class="image-costomer"
+                src="images/Ellipse62(1).png"
+                alt="costomer image"
+              />
+              <h4 class="costomer-name">Robert Fox</h4>
+              <p class="coments">
+                During my last trip, I used a Carent sport car . The car was
+                completely clean and had enough gas.
+              </p>
             </div>
+            <div class="costomer-div">
+              <img
+                class="image-costomer"
+                src="images/Ellipse62(2).png"
+                alt="costomer image"
+              />
+              <h4 class="costomer-name">Dwayne John</h4>
+              <p class="coments">
+                In my experience this is the best site with the best service. I
+                think you should try it.
+              </p>
+            </div>
+            <div class="costomer-div">
+              <img
+                class="image-costomer"
+                src="images/Ellipse62(3).png"
+                alt="costomer image"
+              />
+              <h4 class="costomer-name">Johnny Depp</h4>
+              <p class="coments">
+                This is the first time that I am so satisfied with the car and
+                the service staff. It exceeded my expectations.
+              </p>
+            </div>
+            <div class="costomer-div">
+              <img
+                class="image-costomer"
+                src="images/Ellipse62(4).png"
+                alt="costomer image"
+              />
+              <h4 class="costomer-name">Anjelina Jolie</h4>
+              <p class="coments">
+                When I rented a car, I did not expect such a service. Everything
+                exceeded my expectations. Thank you very much. CARENT
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="sixth-section">
+        <div class="sixth-section-box flex-for">
+          <div class="section-box-wraper">
+            <h3>450+</h3>
+            <p>Cars For Rent</p>
+          </div>
+          <div class="section-box-wraper">
+            <h3>800+</h3>
+            <p>Happy Clients</p>
+          </div>
+          <div class="section-box-wraper">
+            <h3>750+</h3>
+            <p>Rental Locations</p>
+          </div>
         </div>
       </section>
     </main>
+    <footer class="footer">
+      <h1 class="footer-title">Contact Us</h1>
+      <hr class="footer-title-underline" />
+      <div class="footer-main-div">
+        <div class="footer-first-div flex-for">
+          <div class="message-box-div">
+            <label for="name"></label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              class="costom-input"
+              required
+              placeholder="Your Name*"
+            />
+
+            <label for="email"></label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              class="costom-input"
+              required
+              placeholder="Your Email*"
+            />
+
+            <label for="message"></label>
+            <textarea
+              id="message"
+              name="message"
+              rows="4"
+              class="message-box"
+              required
+              placeholder="Your Message"
+            ></textarea>
+
+            <button class="footer-button" type="submit">Send A Message</button>
+          </div>
+          <div>
+            <img
+              class="footer-image"
+              src="images/Rectangle8(2).jpg"
+              alt="car key"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="footer-under-div">
+        <div class="small-div flex-for">
+          <p class="number-info">Need help renting a car? Please call</p>
+          <p class="number">+1-333-444-5555</p>
+        </div>
+        <hr class="footer-line" />
+        <div class="last-div flex-for">
+          <img src="images/Logo(9).svg" alt="logo" />
+          <div class="footer-icon-div flex-for">
+            <div>
+              <i
+                class="fa-brands fa-square-facebook fa-lg"
+                style="color: #fe8400"
+              ></i>
+            </div>
+            <div>
+              <i
+                class="fa-brands fa-square-instagram fa-lg"
+                style="color: #fe8400"
+              ></i>
+            </div>
+            <div>
+              <i
+                class="fa-brands fa-square-twitter fa-lg"
+                style="color: #fe8400"
+              ></i>
+            </div>
+            <div>
+              <i
+                class="fa-brands fa-square-whatsapp fa-lg"
+                style="color: #fe8400"
+              ></i>
+            </div>
+            <div>
+              <i class="fa-brands fa-telegram fa-lg" style="color: #fe8400"></i>
+            </div>
+          </div>
+        </div>
+        <p class="copyright">Copyright © 2023 Copyright Maker | All Rights Reserved</p>
+      </div>
+    </footer>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script
       type="text/javascript"
       src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
     ></script>
     <script src="script.js"></script>
-    <script>
-      function scrollToTop() {
-        window.scrollTo({ top: 0, behavior: 'smooth' });
-      }
-      
-      window.addEventListener('load', scrollToTop);
-    </script>
   </body>
 </html>

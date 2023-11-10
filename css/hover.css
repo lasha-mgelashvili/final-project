@@ -48,3 +48,95 @@ label:hover {
     transform: scale(1.1);
     transition: 0.4s;
 }
+.costomer-div:hover {
+    transform: scale(0.95);
+    transition: 0.4s;
+}
+.footer-button:hover {
+  background-color: brown;
+  transition: 0.7s;
+  transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+
+
+/* welcome animation  */
+/* styles.css */
+.welcome-animation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4d8cd;
+    animation: changeColors 5s, bounce 2s;
+  }
+  
+  @keyframes changeColors {
+    0% {
+      background-color: aqua;
+      color: #316514;
+    }
+    25% {
+      background-color: lightskyblue;
+      color: #8b9f30;
+    }
+    50% {
+      background-color: lightblue;
+      color: #ffb820;
+    }
+    75% {
+      background-color: lightsteelblue;
+      color: #a96813;
+    }
+    100% {
+      background-color: antiquewhite;
+      color: #f86d65;
+      opacity: 0; /* Add opacity to fade out */
+    }
+  }
+  
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(5);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+  }
+  
+  .welcome-h1 {
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Comic Sans MS', cursive;
+    padding: 20px;
+    animation: textColors 7s;
+  }
+  
+  @keyframes textColors {
+    0% {
+      color: #bca62a;
+    }
+    25% {
+      color: #6f5513;
+    }
+    50% {
+      color: #ffcf67;
+    }
+    75% {
+      color: #9a5d02;
+    }
+    100% {
+      color: brown;
+    }
+  }
+canvas {
+    display: block;
+  }
+  

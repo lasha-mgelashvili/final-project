@@ -1,7 +1,7 @@
 $(document).ready(function(){
   $('.slider').slick({
       slidesToShow: 2,  // Change the number of slides shown
-      autoplay: true, // Enable autoplay
+      autoplay: false, // Enable autoplay
       autoplaySpeed: 3000, // Autoplay speed in milliseconds (adjust as needed)
       arrows: true, // Show navigation arrows
       dots: true, // Show pagination dots
@@ -11,8 +11,8 @@ $(document).ready(function(){
 
 $(document).ready(function(){
     $('.slider').slick({
-        slidesToShow: 1,
-        autoplay: true,
+        slidesToShow: 2,
+        autoplay: false,
         autoplaySpeed: 3000,
         arrows: true,
         dots: true,
@@ -21,6 +21,9 @@ $(document).ready(function(){
     // Change the dot color to orange for both active and inactive dots
     $('.slider .slick-dots li button').css('color', 'orange');
 });
+
+
+
 
 
 // script.js
