@@ -7,35 +7,15 @@
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/hover.css" />
-    <title>final-project</title>
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <title>CARENT</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
       integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap"
-      rel="stylesheet"
     />
     <link
       rel="stylesheet"
@@ -64,7 +44,7 @@
             </div>
             <div class="small-box-header-div flex-for">
               <div class="nav-box">
-                <nav>
+                <nav class="navigation" id="navblock">
                   <ul class="flex-for ul-item">
                     <li><a class="a-item" href="#">Home</a></li>
                     <li><a class="a-item" href="#">About</a></li>
@@ -73,10 +53,12 @@
                     <li><a class="a-item" href="#">Contacts</a></li>
                   </ul>
                 </nav>
+                <div class="burger" id="burgerblock">
+                  <i class="fa-solid fa-bars fa-2xl" style="color: #fe8400"></i>
+                </div>
               </div>
-              <div>
-                <button class="flex-for button">Log in Sing up</button>
-                <hr class="button-line" />
+              <div class="header-singup">
+                <button class="flex-for button">Sing Up</button>
               </div>
             </div>
           </div>
@@ -93,37 +75,62 @@
           </p>
           <button class="header-second-button">Explore Now</button>
         </div>
-        <div class="icon-line-div"></div>
+
         <div class="header-icons-div">
           <div>
             <i
-              class="fa-brands fa-square-facebook fa-lg"
-              style="color: #fe8400"
+              class="fa-solid fa-arrow-up fa-rotate-180 fa-xl"
+              style="color: #fff"
             ></i>
           </div>
-          <div>
-            <i
-              class="fa-brands fa-square-instagram fa-lg"
-              style="color: #fe8400"
-            ></i>
+          <div class="icon">
+            <a href="tel:+995597915956">
+              <i class="fa-solid fa-phone fa-lg" style="color: #fe8400"></i>
+            </a>
+          </div>
+          <div class="icon">
+            <a
+              href="https://www.google.com/maps/place/CaRent/@41.7759446,44.8191529,17z/data=!3m1!4b1!4m6!3m5!1s0x40446d2422d249d9:0x2a9742eea1850073!8m2!3d41.7759406!4d44.8217278!16s%2Fg%2F11t8nz7qkh?entry=ttu"
+            >
+              <i
+                class="fa-solid fa-map-location-dot fa-lg"
+                style="color: #fe8400"
+              ></i>
+            </a>
+          </div>
+          <div class="icon">
+            <a href="https://www.facebook.com/"
+              ><i
+                class="fa-brands fa-square-facebook fa-lg"
+                style="color: #fe8400"
+              ></i
+            ></a>
+          </div>
+          <div class="icon">
+            <a href="https://www.instagram.com/">
+              <i
+                class="fa-brands fa-square-instagram fa-lg"
+                style="color: #fe8400"
+              ></i
+            ></a>
+          </div>
+          <div class="icon">
+            <a href="https://twitter.com/home"
+              ><i
+                class="fa-brands fa-square-twitter fa-lg"
+                style="color: #fe8400"
+              ></i
+            ></a>
+          </div>
+          <div class="icon">
+            <a href="https://web.telegram.org/a/"
+              ><i class="fa-brands fa-telegram fa-lg" style="color: #fe8400"></i
+            ></a>
           </div>
           <div>
-            <i
-              class="fa-brands fa-square-twitter fa-lg"
-              style="color: #fe8400"
-            ></i>
-          </div>
-          <div>
-            <i
-              class="fa-brands fa-square-whatsapp fa-lg"
-              style="color: #fe8400"
-            ></i>
-          </div>
-          <div>
-            <i class="fa-brands fa-telegram fa-lg" style="color: #fe8400"></i>
+            <i class="fa-solid fa-arrow-up fa-xl" style="color: #fff"></i>
           </div>
         </div>
-        <div class="icon-line-div1"></div>
       </div>
     </header>
     <main>
@@ -171,13 +178,13 @@
             <div class="select-div">
               <select
                 class="select-boxes"
-                name="pickup location"
-                id=" select location"
+                name="pickup_location"
+                id="pickup_location"
               >
                 <option value="none">Pickup Location</option>
                 <option value="Tbilisi">Tbilisi</option>
                 <option value="Batumi">Batumi</option>
-                <option value="Rustavi">Rustvi</option>
+                <option value="Rustavi">Rustavi</option>
                 <option value="Zugdidi">Zugdidi</option>
               </select>
               <div class="icon-div-in-select">
@@ -249,8 +256,8 @@
             <div class="select-div">
               <select
                 class="second-line-select-boxes"
-                name="pickup time"
-                id="time"
+                name="pickup-time"
+                id="pickups"
               >
                 <option value="none">Pickup Time</option>
                 <option value="12pm">12pm</option>
@@ -276,8 +283,8 @@
             <div class="select-div">
               <select
                 class="second-line-select-boxes"
-                name="return time"
-                id="time"
+                name="return-time"
+                id="returns"
               >
                 <option value="none">Return Time</option>
                 <option value="12pm">12pm</option>
@@ -705,36 +712,59 @@
         <div class="last-div flex-for">
           <img src="images/Logo(9).svg" alt="logo" />
           <div class="footer-icon-div flex-for">
-            <div>
-              <i
-                class="fa-brands fa-square-facebook fa-lg"
-                style="color: #fe8400"
-              ></i>
+            <div class="icon">
+              <a href="tel:+995597915956">
+                <i class="fa-solid fa-phone fa-lg" style="color: #fe8400"></i>
+              </a>
             </div>
-            <div>
-              <i
-                class="fa-brands fa-square-instagram fa-lg"
-                style="color: #fe8400"
-              ></i>
+            <div class="icon">
+              <a
+                href="https://www.google.com/maps/place/CaRent/@41.7759446,44.8191529,17z/data=!3m1!4b1!4m6!3m5!1s0x40446d2422d249d9:0x2a9742eea1850073!8m2!3d41.7759406!4d44.8217278!16s%2Fg%2F11t8nz7qkh?entry=ttu"
+              >
+                <i
+                  class="fa-solid fa-map-location-dot fa-lg"
+                  style="color: #fe8400"
+                ></i>
+              </a>
             </div>
-            <div>
-              <i
-                class="fa-brands fa-square-twitter fa-lg"
-                style="color: #fe8400"
-              ></i>
+            <div class="icon">
+              <a href="https://www.facebook.com/">
+                <i
+                  class="fa-brands fa-square-facebook fa-lg"
+                  style="color: #fe8400"
+                ></i
+              ></a>
             </div>
-            <div>
-              <i
-                class="fa-brands fa-square-whatsapp fa-lg"
-                style="color: #fe8400"
-              ></i>
+            <div class="icon">
+              <a href="https://www.instagram.com/">
+                <i
+                  class="fa-brands fa-square-instagram fa-lg"
+                  style="color: #fe8400"
+                ></i
+              ></a>
             </div>
-            <div>
-              <i class="fa-brands fa-telegram fa-lg" style="color: #fe8400"></i>
+            <div class="icon">
+              <a href="https://twitter.com/home">
+                <i
+                  class="fa-brands fa-square-twitter fa-lg"
+                  style="color: #fe8400"
+                ></i
+              ></a>
+            </div>
+            <div class="icon">
+              <a href="https://web.telegram.org/a/"
+                ><i
+                  class="fa-brands fa-telegram fa-lg"
+                  style="color: #fe8400"
+                ></i
+              ></a>
             </div>
           </div>
         </div>
-        <p class="copyright">Copyright © 2023 Copyright Maker | All Rights Reserved</p>
+        <p class="copyright">
+          Copyright © 2023 <span class="footer-span">CARENT</span> | All Rights
+          Reserved
+        </p>
       </div>
     </footer>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -742,6 +772,6 @@
       type="text/javascript"
       src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
     ></script>
-    <script src="script.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>

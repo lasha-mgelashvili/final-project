@@ -1,63 +1,121 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 .a-item:hover {
-    color: darkred;
-    transform: scale(1.4);
-    transition: 0.7s;
-    font-size: 2rem;
+  color: darkred;
+  -webkit-transform: scale(1.4);
+      -ms-transform: scale(1.4);
+          transform: scale(1.4);
+  -webkit-transition: 0.7s;
+  -o-transition: 0.7s;
+  transition: 0.7s;
+  font-size: 2rem;
 }
 .header-second-button:hover {
-    background-color: red;
-    transition: 1s;
-    transform: scale(1.2);
+  background-color: red;
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+  -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+          transform: scale(1.2);
 }
 .button:hover {
-    background-color: gray;
-    transition: 1s;
-    transform: scale(1.1);
+  background-color: gray;
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1);
 }
 label:hover {
-    transition: 0.4s;
-    transform: scale(1.1);
+  -webkit-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s;
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1);
 }
 .first-section-image:hover {
-    transition: 1s;
-    transform: scale(1.2);
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+  -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+          transform: scale(1.2);
 }
 .button-second-section:hover {
-    background-color: brown;
-    transition: 1s;
-    transform: scale(1.2);
+  background-color: brown;
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+  -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+          transform: scale(1.2);
 }
 .select-boxes:hover {
-    border-style: outset;
-    border-color: black;
+  border-style: outset;
+  border-color: black;
 }
 .second-line-select-boxes:hover {
-    border-style: outset;
-    border-color: black;
+  border-style: outset;
+  border-color: black;
 }
 .image-zoom-wraper:hover img {
-    transform: scale(1.3);
-    transition: 1s;
+  -webkit-transform: scale(1.3);
+      -ms-transform: scale(1.3);
+          transform: scale(1.3);
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
 }
 .book-button:hover {
-    background-color: brown;
-    transition: 0.7s;
-    transform: scale(1.1);
+  background-color: brown;
+  -webkit-transition: 0.7s;
+  -o-transition: 0.7s;
+  transition: 0.7s;
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1);
 }
 .premium-services:hover {
-    transform: scale(1.1);
-    transition: 0.4s;
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s;
 }
 .costomer-div:hover {
-    transform: scale(0.95);
-    transition: 0.4s;
+  -webkit-transform: scale(0.95);
+      -ms-transform: scale(0.95);
+          transform: scale(0.95);
+  -webkit-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s;
 }
 .footer-button:hover {
-  background-color: brown;
-  transition: 0.7s;
-  transform: scale(1.1);
+background-color: brown;
+-webkit-transition: 0.7s;
+-o-transition: 0.7s;
+transition: 0.7s;
+-webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+        transform: scale(1.1);
 }
-
+.icon:hover {
+-webkit-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+        transform: scale(1.5);
+-webkit-transition: 0.4s;
+-o-transition: 0.4s;
+transition: 0.4s;
+}
 
 
 
@@ -70,73 +128,135 @@ label:hover {
 /* welcome animation  */
 /* styles.css */
 .welcome-animation {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #f4d8cd;
-    animation: changeColors 5s, bounce 2s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  background-color: #f4d8cd;
+  -webkit-animation: changeColors 5s, bounce 2s;
+          animation: changeColors 5s, bounce 2s;
+}
+
+@-webkit-keyframes changeColors {
+  0% {
+    background-color: aqua;
+    color: #316514;
   }
-  
-  @keyframes changeColors {
-    0% {
-      background-color: aqua;
-      color: #316514;
-    }
-    25% {
-      background-color: lightskyblue;
-      color: #8b9f30;
-    }
-    50% {
-      background-color: lightblue;
-      color: #ffb820;
-    }
-    75% {
-      background-color: lightsteelblue;
-      color: #a96813;
-    }
-    100% {
-      background-color: antiquewhite;
-      color: #f86d65;
-      opacity: 0; /* Add opacity to fade out */
-    }
+  25% {
+    background-color: lightskyblue;
+    color: #8b9f30;
   }
-  
-  @keyframes bounce {
-    0%, 100% {
-      transform: translateY(5);
-    }
-    50% {
-      transform: translateY(-20px);
-    }
+  50% {
+    background-color: lightblue;
+    color: #ffb820;
   }
-  
-  .welcome-h1 {
-    font-size: 50px;
-    text-align: center;
-    font-family: 'Comic Sans MS', cursive;
-    padding: 20px;
-    animation: textColors 7s;
+  75% {
+    background-color: lightsteelblue;
+    color: #a96813;
   }
-  
-  @keyframes textColors {
-    0% {
-      color: #bca62a;
-    }
-    25% {
-      color: #6f5513;
-    }
-    50% {
-      color: #ffcf67;
-    }
-    75% {
-      color: #9a5d02;
-    }
-    100% {
-      color: brown;
-    }
+  100% {
+    background-color: antiquewhite;
+    color: #f86d65;
+    opacity: 0; /* Add opacity to fade out */
   }
+}
+
+@keyframes changeColors {
+  0% {
+    background-color: aqua;
+    color: #316514;
+  }
+  25% {
+    background-color: lightskyblue;
+    color: #8b9f30;
+  }
+  50% {
+    background-color: lightblue;
+    color: #ffb820;
+  }
+  75% {
+    background-color: lightsteelblue;
+    color: #a96813;
+  }
+  100% {
+    background-color: antiquewhite;
+    color: #f86d65;
+    opacity: 0; /* Add opacity to fade out */
+  }
+}
+
+@-webkit-keyframes bounce {
+  0%, 100% {
+    -webkit-transform: translateY(5);
+            transform: translateY(5);
+  }
+  50% {
+    -webkit-transform: translateY(-20px);
+            transform: translateY(-20px);
+  }
+}
+
+@keyframes bounce {
+  0%, 100% {
+    -webkit-transform: translateY(5);
+            transform: translateY(5);
+  }
+  50% {
+    -webkit-transform: translateY(-20px);
+            transform: translateY(-20px);
+  }
+}
+
+.welcome-h1 {
+  font-size: 50px;
+  text-align: center;
+  font-family: 'Comic Sans MS', cursive;
+  padding: 20px;
+  -webkit-animation: textColors 7s;
+          animation: textColors 7s;
+}
+
+@-webkit-keyframes textColors {
+  0% {
+    color: #bca62a;
+  }
+  25% {
+    color: #6f5513;
+  }
+  50% {
+    color: #ffcf67;
+  }
+  75% {
+    color: #9a5d02;
+  }
+  100% {
+    color: brown;
+  }
+}
+
+@keyframes textColors {
+  0% {
+    color: #bca62a;
+  }
+  25% {
+    color: #6f5513;
+  }
+  50% {
+    color: #ffcf67;
+  }
+  75% {
+    color: #9a5d02;
+  }
+  100% {
+    color: brown;
+  }
+}
 canvas {
-    display: block;
-  }
-  
+  display: block;
+}

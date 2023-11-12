@@ -1,0 +1,302 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+@media (max-width:1340px) {
+    .header-title {
+        font-size: 2.5rem;
+    }
+    .header-second-button {
+        margin-top: 38px;
+        margin-bottom: 20px;
+    }
+    
+}
+@media (max-width:1024px) {
+    .second-child {
+        max-width: 95%;
+    }
+    .logo {
+        max-width: 150px;
+        height: 25px;
+    }
+    .header-left-box {
+        max-width: 35rem;
+        height: 650px;
+    }
+    .a-item {
+        font-size: 0.8rem;
+    }
+    .image {
+        width: 100%;
+        min-height: 300px;
+        -o-object-fit: fill;
+           object-fit: fill;
+    }
+    .first-image-div {
+
+        left: 8rem;
+    }
+    .header-text-div {
+        width: 50%;
+        background-color: #00000090;
+        position: absolute;
+        top: 120px;
+        left: 10rem;
+    }
+    .header-title {
+        font-size: 2rem;
+        margin-top: 20px;
+    }
+    .header-info-text {
+        font-size: 1rem;
+    }
+    .header-second-button {
+        width: 14rem;
+        height: 3rem;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .up-text {
+        font-size: 1rem;
+        line-height: 25px;
+        margin-top: 0px;
+    }
+    .down-text {
+        font-size: 1rem;
+        line-height: 25px;
+    }
+    .select-boxes {
+        max-width: 15rem;
+        width: 95%;
+        height: 60px;
+        font-size: 0.8rem;
+        margin: 0auto;
+    }
+    .second-line-select-boxes {
+        max-width: 13rem;
+        width: 95%;
+        height: 60px;
+        font-size: 0.8rem;
+    }
+    .button-second-section {
+        max-width: 12rem;
+        font-size: 1rem;
+        height: 50px;
+    }
+    .first-child {
+        padding-left: 2rem;
+    }
+    .header-icons-div {
+        top: 200px;
+        left: 2rem;
+        z-index: 1234551555;
+    }
+    .first-section {
+        padding-top: 700px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .burger {
+        display: block;
+        -webkit-transition: 0.5s;
+        -o-transition: 0.5s;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+    .burger:hover {
+        -webkit-transform: scale(1.2);
+            -ms-transform: scale(1.2);
+                transform: scale(1.2);
+        -webkit-transition: 0.5s;
+        -o-transition: 0.5s;
+        transition: 0.5s;
+        -webkit-box-shadow: 5px 10px 10px black;
+                box-shadow: 5px 10px 10px black;
+    }
+    .navigation {
+        display: none;
+        background-color: #00ffff70;
+        top: 0px;
+        right: 0px;
+        }
+    .button {
+        max-width: 6rem;
+        margin-top: 50px;
+        position: absolute;
+        top: 15px;
+        left: 0rem;
+        z-index: 0;
+    }
+    .second-child {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .small-box-header-div {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        position: absolute;
+        z-index: 11111111;
+        top: 0px;
+        width: 95%;
+    }
+    .image {
+        width: 100%;
+        min-height: 300px;
+    }
+    .first-image-div {
+        max-width: 45rem;
+        height: 50px;
+        left: 7rem;
+    }
+    .nav-box {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        margin: 0 auto;
+        width: 95%;
+        height: 500px;
+        margin-top: 0px;
+    }
+    .a-item {
+        font-size: 1rem;
+        text-shadow: 0px 10px 10px red;
+    }
+    .navigation.newnavigation {
+        display: block;
+    }
+    .ul-item {
+        row-gap: 3rem;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    .logo {
+        position: absolute;
+        top: 25px;
+        left: 25px;
+    }
+    .header-first-div {
+        z-index: 4123;
+    }
+    .header-title {
+        font-size: 1.5rem;
+        margin-top: 10px;
+        line-height: 30px;
+    }
+    .header-info-text {
+        font-size: 0.9rem;
+        line-height: 30px;
+    }
+    .header-second-button {
+        width: 12rem;
+        height: 2.5rem;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    .header-text-div {
+        width: 68%;
+        left: 6rem;
+    }
+    .header-icons-div {
+        top: 200px;
+        left: 2rem;
+    }
+    .second-child {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -ms-flex-wrap: nowrap;
+            flex-wrap: nowrap;
+    }
+    .third-child-div  {
+        padding-bottom: 2rem;
+    }
+    .car-exponents-small-box {
+        font-size: 0.9rem;
+    }
+    .car-exponents {
+        gap: 0.8rem;
+    }
+    .section-small-div {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        margin: 0 auto;
+        text-align: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    .up-text {
+        width: 90%;
+    }
+    .services-info  {
+        font-size: 0.8rem;
+    }
+        
+    .second-section {
+        margin-top: 200px;
+    }
+    .fourth-line {
+        width: 280px;
+    }
+    .fifth-title-line {
+        width: 280px;
+    }
+    .costomer-div {
+        padding-bottom: 1rem;
+    }
+    .info-div {
+        font-size: 0.9rem;
+    }
+    .costom-input {
+        width: 200px;
+    }
+    .footer-first-div {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+            -ms-flex-direction: column-reverse;
+                flex-direction: column-reverse;
+    }
+    .footer-under-div {
+        margin-top: 700px;
+        height: 800px;
+    }
+    .last-div {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        row-gap: 3rem;
+    }
+}
+@media (max-width:550px) {
+    .first-image-div {
+        left: 5rem;
+        min-height: 250px;
+    }
+    
+}
